@@ -1,47 +1,59 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #000;
-    color: #fff;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-.navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
+header {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
 }
 
-.hero-section {
-    background: url('https://via.placeholder.com/1920x1080') no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header h1 {
+  margin: 0;
 }
 
-.hero-section h1 {
-    font-size: 4rem;
-    font-weight: bold;
-    color: #FFD700;
+nav ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.btn-gold {
-    background-color: #FFD700;
-    color: #000;
+nav ul li {
+  display: inline;
+  margin-right: 20px;
 }
 
-.btn-gold:hover {
-    background-color: #FFC700;
-    color: #000;
+nav ul li a {
+  text-decoration: none;
+  color: #333;
 }
 
-.text-gold {
-    color: #FFD700;
+.hero {
+  background-color: #eaeaea;
+  text-align: center;
+  padding: 100px 0;
 }
 
-.card {
-    border: none;
+.hero h2 {
+  margin-top: 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #555;
 }
 
 footer {
-    background-color: #111;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
 }
