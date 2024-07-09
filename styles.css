@@ -1,53 +1,47 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
-h1 {
-  color: #333;
+.hero-section {
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.product, .about, .types {
-  margin-bottom: 50px;
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FFD700;
 }
 
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
+.btn-gold {
+    background-color: #FFD700;
+    color: #000;
 }
 
-.btn:hover {
-  background-color: #0056b3;
+.btn-gold:hover {
+    background-color: #FFC700;
+    color: #000;
+}
+
+.text-gold {
+    color: #FFD700;
+}
+
+.card {
+    border: none;
 }
 
 footer {
-  margin-top: 50px;
-  color: #666;
+    background-color: #111;
 }
-
-.types h2 {
-  color: #333;
-}
-
-.types ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.types ul li {
-  margin-bottom: 10px;
-  font-size: 16px;
-}
-
